@@ -1,8 +1,8 @@
 import React from 'react';
 
-function TextArea() {
+function TextArea(props) {
     return <section>
-        <textarea id="editor"></textarea>
+        <textarea id="editor" value={props.text} onChange={props.userInput}></textarea>
     </section>;
 }
 
