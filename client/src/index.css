@@ -1,2 +1,6 @@
 body {
+    display: flex;
+    justify-content: center;
+    color: #006400;
+    background-color: #F6FEDB;
 }
