@@ -1,8 +1,8 @@
 import React from 'react';
 
-function TextPreview() {
+function TextPreview(props) {
     return <section>
-        <p id="preview"></p>
+        <p id="preview">{props.text}</p>
     </section>;
 }
 
