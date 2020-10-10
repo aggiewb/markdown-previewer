@@ -6,3 +6,6 @@ import App from './App';
 //shallow: https://enzymejs.github.io/enzyme/docs/api/shallow.html
 //mount: https://enzymejs.github.io/enzyme/docs/api/mount.html
 
+it('App deeply renders as a smoke test', () => {
+  mount(<App />);
+});
