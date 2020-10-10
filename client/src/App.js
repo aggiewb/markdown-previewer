@@ -9,6 +9,9 @@ class App extends React.Component {
   }
   
   render(){
+    return <main>
+      <h1>Markdown Previewer</h1>
+    </main>;
   }
 }
 
