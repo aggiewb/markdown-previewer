@@ -8,14 +8,20 @@ class App extends React.Component {
   constructor(){
     super();
     this.state = {
+      markDown: ''
     }
+    this.userInput = this.userInput.bind(this);
+  }
+
+  userInput(event){
+    this.setState({markDown: event.target.value});
   }
   
   render(){
     return <main>
       <h1>Markdown Previewer</h1>
-      <TextArea />
-      <TextPreview />
+      <TextArea userInput={this.userInput}/>
+      <TextPreview text={this.state.markDown}/>
       <Footer />
     </main>;
   }
