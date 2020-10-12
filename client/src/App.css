@@ -1,8 +1,14 @@
 textarea {
     background-color: #006400;
     color: #F6FEDB;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#preview {
+    font-family: 'Roboto Slab', serif;
 }
 
 a {
     color: #25597E;
+    font-family: 'Roboto Mono', monospace;
 }
