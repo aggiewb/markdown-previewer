@@ -36,4 +36,13 @@ it('should render TextArea, and set textarea to a user input text prop', () => {
   const textAreaElement = textArea.find('textarea');
 
   expect(textAreaElement.prop('value')).toEqual(EXPECTED_USER_INPUT);
-})
+});
+
+it('should be able to call userInput on change within textarea element in TextArea', () => {
+  const userInput = jest.fn();
+  const textArea = shallow(<TextArea userInput={userInput}/>);
+  const textAreaElement = textArea.find('textarea');
+  
+  textAreaElement.simulate('change');
+  expect(userInput).toHaveBeenCalled();
+});
