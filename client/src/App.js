@@ -40,7 +40,7 @@ function fizzBuzz(){
   list = '1. An\n2. ordered\n3. list\n- An\n- unordered\n- list\n\n';
   blockQuote = 'This is a block quote.\n> Blockquotes are very handy in email to emulate reply text. This is a very long line that will still be quoted properly when it wraps. Oh boy let\'s keep writing to make sure this is long enough to actually wrap for everyone.\n\n';
   image = 'This is an image:\n![Orange cat](https://upload.wikimedia.org/wikipedia/commons/archive/1/18/20190829201925%21Orange_cat_cartoon.png)\n\n';
-  bold='If you\'re **bold**, you can check out more syntax [**here**](https://www.markdownguide.org/cheat-sheet/)!'
+  bold='If you\'re **bold**, you can check out more markdown syntax [**here**](https://www.markdownguide.org/cheat-sheet/)!'
 
   defaultMarkdown = `${this.h1}${this.h2}${this.a}${this.inlineCode}${this.codeBlock}${this.list}${this.blockQuote}${this.image}${this.bold}`;
 
