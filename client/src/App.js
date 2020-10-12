@@ -51,8 +51,10 @@ function fizzBuzz(){
   render(){
     return <main>
       <h1>Markdown Previewer</h1>
-      <TextArea userInput={this.userInput} text={this.state.markDown}/>
-      <TextPreview text={this.state.markDown}/>
+      <div id="text-components">
+        <TextArea userInput={this.userInput} text={this.state.markDown}/>
+        <TextPreview text={this.state.markDown}/>
+      </div>
       <Footer />
     </main>;
   }
