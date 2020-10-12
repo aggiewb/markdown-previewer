@@ -1,6 +1,6 @@
 body {
-    display: flex;
-    justify-content: center;
+    font-family: 'Roboto Slab', serif;
     color: #006400;
     background-color: #F6FEDB;
+    margin: 40px 50px;
 }
